@@ -38,7 +38,7 @@
   "dependencies": {
     "@types/jquery": "^3.2.12",
     "jquery": "^3.2.1"
-  }
+  },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.13.5",
     "@angular/cli": "~7.3.5",

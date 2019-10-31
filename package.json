@@ -32,10 +32,10 @@
   "main": "./index.js",
   "types": "./index.d.ts",
   "peerDependencies": {
-    "bootstrap-daterangepicker": ">=2.1.25",
     "moment": "^2.19.1"
   },
   "dependencies": {
+    "bootstrap-daterangepicker": ">=2.1.25",
     "@types/jquery": "^3.2.12",
     "jquery": "^3.2.1"
   },

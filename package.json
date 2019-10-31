@@ -11,7 +11,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "ngc-build": "rm -rf lib && \"node_modules/.bin/ngc\" -p tsconfig-aot.json",
-    "prepare": "rm -rf lib && \"node_modules/.bin/ngc\" -p tsconfig-aot.json"
+    "prepublish": "rm -rf lib && \"node_modules/.bin/ngc\" -p tsconfig-aot.json",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
